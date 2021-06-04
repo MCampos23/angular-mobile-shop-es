@@ -1,0 +1,16 @@
+.card:hover{
+    box-shadow: 0px 0px 4px #ccc;
+    transition: all 400ms;
+}
+a > .card-img-top{
+ width: auto;
+ height: auto;
+ max-height: 200px;
+ max-width: 200px;
+ margin: 0 auto;
+ padding-top: 15px;
+ display: block;
+}
+a:hover{
+    text-decoration: underline;
+}

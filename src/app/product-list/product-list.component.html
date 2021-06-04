@@ -1,0 +1,40 @@
+<div
+  class="
+    row
+    gx-4 gx-lg-5
+    row-cols-2 row-cols-md-3 row-cols-xl-4
+    justify-content-center
+  "
+>
+  <div *ngFor="let product of products" class="col mb-5">
+    <div class="card h-100">
+      <!-- Product image-->
+      <a [routerLink]="['/products', product.id]">
+        <img class="card-img-top" src="{{ product.img }}" alt="..." />
+      </a>
+      <!-- Product details-->
+      <div class="card-body p-4 text-center">
+        <a [routerLink]="['/products', product.id]">
+          <h5 class="fw-bolder">{{ product.name }}</h5>
+          <p>{{ product.price }} €</p>
+          <p>{{ product.excerpt }}</p>
+        </a>
+      </div>
+      <!-- Product actions-->
+      <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
+        <p>
+          <button
+            class="btn btn-outline-dark mt-auto"
+            [title]="product.name + ' details'"
+            [routerLink]="['/products', product.id]"
+            >View Details</button>
+        </p>
+        <p>
+          <button class="btn btn-outline-dark mt-auto" (click)="share()">
+            Share
+          </button>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
