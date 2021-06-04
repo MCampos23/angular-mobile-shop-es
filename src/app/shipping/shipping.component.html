@@ -1,6 +1,10 @@
-<h3>Shipping Prices</h3>
+<h5>Shipping Prices</h5>
+
 
 <div class="shipping-item" *ngFor="let shipping of shippingCosts | async">
-  <span>{{ shipping.type }}</span>
-  <span>{{ shipping.price | currency }}</span>
-</div>
+    <input type="radio" name="shipping-price" value="{{shipping.price}}" (change)="radioChangeHandler($event)" >
+    <span>{{ shipping.type }}</span>
+    <span>{{ shipping.price}} €</span>
+  </div>
+
+<p>Form value: {{selectedShippingType}} </p>

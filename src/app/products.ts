@@ -13,7 +13,7 @@ export const products = [
   {
     id: 1,
     name: 'Cubot Note 20',
-    price: 87.99,
+    price: 87.95,
     excerpt: 'The NOTE 20 free phone has a large 6.5-inch raindrop screen with rounded corners, offers a better visual experience.',
     description1:'【6.5-inch large screen NOTE The NOTE 20 free mobile has a large 6.5-inch water drop screen with rounded corners, offers a better visual experience, you can see a full screen, be it videos, games or anything else, it is your Best partner. 【SONY Quad Camera】 The cheap and good NOTE 20 mobile with quad rear camera designed in a round shape, looks fashionable.',
     description2:'【 With SONY IMX486 12.0MP main camera capture the beauties of your life clearly, with the Sony IMX350 20MP sensor capture portraits like a film director with movie mode. 8MP front camera enhances images with AI, record every point of your beauty. 3GB + 64GB + 4200mAh Battery】',
@@ -23,7 +23,7 @@ export const products = [
   {
     id: 2,
     name: 'Dodge Pro2021',
-    price: 199.99,
+    price: 199.70,
     excerpt:'DOOGEE S59 Pro comes with a huge 10050mAh battery inside and can handle intense gaming for long hours.',
     description1: 'DOOGEE S59 Pro comes with a huge 10050mAh battery inside and can handle intense gaming for long hours. Enjoy fast charging with 24W cables anytime, anywhere. Because this phone can provide up to 700 hours of standby time, you can easily get rid of the battery anxiety problem.',
     description2:'With up to 4GB RAM and 128GB of internal storage, it reveals the power performance of the DOOGEE S59 Pro, giving you a lot more space than other smartphones in the same range.',

@@ -1,3 +1,4 @@
+import { formatCurrency } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
 import { CartService } from '../cart.service';
@@ -9,6 +10,7 @@ import { CartService } from '../cart.service';
 })
 export class CartComponent implements OnInit {
   items = this.cartService.getItems();
+  totalAmount = this.cartService.getTotalAmount();
   checkoutForm = this.formBuilder.group({
     name: '',
     address: ''
