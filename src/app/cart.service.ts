@@ -30,7 +30,7 @@ export class CartService {
   getTotalAmount(){
     let total:number = 0
     this.items.forEach(item=> total+=item.price)
-    return total
+    return total.toFixed(2)
   }
   constructor(
     private http: HttpClient
