@@ -9,7 +9,11 @@ import { Product } from './products'
 })
 export class CartService {
   items: Product[] = []
-  
+  deleteItem(item: Product){
+    let i = this.items.indexOf(item)
+    this.items.splice(i, 1)
+   
+  }
   addToCart(product: Product){
     this.items.push(product)
   }
@@ -26,7 +30,6 @@ export class CartService {
   getTotalAmount(){
     let total:number = 0
     this.items.forEach(item=> total+=item.price)
-   
     return total
   }
   constructor(

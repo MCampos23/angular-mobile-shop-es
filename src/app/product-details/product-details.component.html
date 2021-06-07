@@ -1,19 +1,28 @@
 <div *ngIf="product">
   <div class="row">
-    <div class="col-md-8 p-5">
+    <div class="col-lg-4 p-3 justify justify-content-center d-flex">
+      <img src="{{ product.img }}" />
+    </div>
+    <div class="col-lg-8 p-md-5 pt-3">
       <h3>{{ product.name }}</h3>
       <ul>
-        <li><p>{{ product.description1 }}</p></li>
-        <li><p>{{ product.description2 }}</p></li>
-        <li><p>{{ product.description3 }}</p></li>
+        <li>
+          <p>{{ product.description1 }}</p>
+        </li>
+        <li>
+          <p>{{ product.description2 }}</p>
+        </li>
+        <li>
+          <p>{{ product.description3 }}</p>
+        </li>
       </ul>
       <h4>{{ product.price }} €</h4>
-     
-      <button class="btn btn-success m-3" (click)="addToCart(product)">Buy now</button>
-      <button class="btn btn-outline-dark" (click)="addToFavourites()">Add to Favourites</button>
-    </div>
-    <div class="col-md-4 p-3">
-      <img src="{{ product.img }}" />
+      <button class="btn btn-success m-3" (click)="addToCart(product)">
+        Buy now
+      </button>
+      <button class="btn btn-outline-dark" (click)="addToFavourites()">
+        Add to Favourites
+      </button>
     </div>
   </div>
 </div>

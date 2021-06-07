@@ -1,0 +1,10 @@
+@media (max-width: 576px){
+    img{
+        width: 250px;
+    }
+    ul{
+        list-style: none;
+        padding-left: 0px !important;
+    }
+
+}

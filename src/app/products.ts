@@ -78,7 +78,7 @@ export const products = [
     description1: 'Ulefone Note 10 Mobile Phone runs the latest Android 11 Go Edition operating system out of the box, allows you to easily check important messages and manage conversations, connected devices, privacy settings and other content in a more convenient way.',
     description2:'[High-performance CPU + 4G Dual SIM] UlefoneNote10 uses SC9863A chip, eight-core processor, RAM2GB + 32GB ROM (the maximum can be expanded to 128GB). The operational performance is stable, which can effectively reduce power consumption and provide enough buffer for operation and storage space. It has 3 card slots and can use 2 nano SIM cards at the same time, so you can easily switch between work and private use.',
     description3:'【6.52 HD Screen + 3D Color Gradient Design】 With its nearly borderless design, the phone can provide an uninterrupted immersive experience when you play games, watch movies or read e-books. Ulefone Note 10 uses a 3D color gradient design on its back cover. It has a prism-shaped dynamic color gradient on the back, which glows every time it moves. And the matte texture makes it anti-fingerprint. [5500mAh + OTG large-capacity battery] Ulefone Note10P is equipped with 5500mAh high-capacity battery, (10W fast charge) provides a perfect experience, without worrying about the battery life is not long, and you will get rid of the problem of charging. You can enjoy games and videos. It also has OTG reverse charging function.',
-    img: '../../assets/img/mobile-models/Ulefon Note 10.webp'
+    img: 'assets/img/mobile-models/Ulefon Note 10.webp'
   },
   {
     id: 8,
@@ -88,7 +88,7 @@ export const products = [
     description1: 'Redmi 9; The incredible Redmi series offers you the best experience, continuing the legacy of its predecessors. Enhanced imaging system, 13 MP quad camera with AI and 8 MP front selfie camera.',
     description2: 'Redmi 9 features a 6.53 "HD + DotDisplay screen with TÜV Rheinland low blue light certification. MediaTek Helio G80 processor, high-performance 8-core processor. Upgraded 5020mAh (typ) battery, you can enjoy long-lasting power. ',
     description3:'Along with 18W fast charging, you can enjoy your device in no time.',
-    img: './assets/img/mobile-models/Xiaomi Redmi 9.webp'
+    img: 'assets/img/mobile-models/Xiaomi Redmi 9.webp'
   }
 ];
 

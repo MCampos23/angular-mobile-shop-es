@@ -1,0 +1,5 @@
+@media(max-width:465px){
+    .cart-item{
+       min-width:300px !important;
+    }
+}
