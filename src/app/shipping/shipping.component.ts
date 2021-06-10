@@ -12,6 +12,7 @@ export class ShippingComponent implements OnInit {
   selectedShippingType:number = 0
 
   radioChangeHandler(event: any){
+    
     return this.selectedShippingType = event.target.value
   }
   constructor(private cartService: CartService) { }

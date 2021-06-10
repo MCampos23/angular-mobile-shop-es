@@ -12,7 +12,6 @@ export class CartService {
   deleteItem(item: Product){
     let i = this.items.indexOf(item)
     this.items.splice(i, 1)
-   
   }
   addToCart(product: Product){
     this.items.push(product)
@@ -32,6 +31,10 @@ export class CartService {
     this.items.forEach(item=> total+=item.price)
     return total.toFixed(2)
   }
+  getItemsLength(){
+    return this.items.length
+  }
+  
   constructor(
     private http: HttpClient
   ) {}
