@@ -84,7 +84,7 @@ export const products = [
     id: 8,
     name: 'Xiaomi Redmi 9',
     price: 299,
-    excerpt:'Redmi 9; The incredible Redmi series offers you the best experience, continuing the legacy of its predecessors',
+    excerpt:'Redmi 9; El increíble Redmi series offers you the best experience, continuing the legacy of its predecessors',
     description1: 'Redmi 9; The incredible Redmi series offers you the best experience, continuing the legacy of its predecessors. Enhanced imaging system, 13 MP quad camera with AI and 8 MP front selfie camera.',
     description2: 'Redmi 9 features a 6.53 "HD + DotDisplay screen with TÜV Rheinland low blue light certification. MediaTek Helio G80 processor, high-performance 8-core processor. Upgraded 5020mAh (typ) battery, you can enjoy long-lasting power. ',
     description3:'Along with 18W fast charging, you can enjoy your device in no time.',
