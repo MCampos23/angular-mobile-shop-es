@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col-lg-8">
-    <h3>Cart</h3>
+    <h3>Carrito</h3>
     <div class="cart-item" *ngFor="let item of items">
       <span class="mt-2">{{ item.name }}</span>
       <span class="mt-2">{{ item.price }} €</span>
@@ -8,25 +8,25 @@
     </div>
 
     <div class="cart-item">
-      <span><b>Total amount: </b></span>
+      <span><b>Precio total : </b></span>
       <span>{{ totalAmount }} €</span>
     </div>
     <!-- <app-shipping></app-shipping> -->
 
     <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
       <div>
-        <label for="name"> Name </label>
+        <label for="name"> Nombre </label>
 
         <input type="text" id="name" formControlName="name" />
       </div>
 
       <div>
-        <label for="address"> Address </label>
+        <label for="address"> Dirección </label>
 
         <input type="text" id="address" formControlName="address" />
       </div>
 
-      <button class="button" type="submit">Purchase</button>
+      <button class="button" type="submit">Realizar pedido</button>
     </form>
   </div>
   <!-- <div class="col-lg-4 pt-3">

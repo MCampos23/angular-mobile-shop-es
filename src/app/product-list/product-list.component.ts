@@ -13,7 +13,7 @@ export class ProductListComponent {
     console.log()
   }
   share() {
-    window.alert('The product has been shared!');
+    window.alert('El teléfono ha sido compartido!');
   }
   onNotify() {
     window.alert('You will be notified when the product goes on sale');

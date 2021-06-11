@@ -22,7 +22,7 @@ export class CartComponent implements OnInit {
     private formBuilder: FormBuilder
   ) {}
   deleteItem(item: Product) {
-    let result = window.confirm(`You are about to delete ${item?.name} from your cart. Are you sure?`)
+    let result = window.confirm(`Estás a punto de eliminar ${item?.name} de tu carrito. Estás seguro?`)
     if(result){
       this.cartService.deleteItem(item);
       this.totalAmount = this.cartService.getTotalAmount()
@@ -30,7 +30,7 @@ export class CartComponent implements OnInit {
   }
   onSubmit(): void{
     this.items = this.cartService.clearCart()
-    console.warn('Your order has been submited', this.checkoutForm.value)
+    console.warn('Tu pedido ha sido realizado!', this.checkoutForm.value)
     this.checkoutForm.reset()
   }
 

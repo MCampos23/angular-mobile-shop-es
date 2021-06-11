@@ -16,10 +16,10 @@ export class ProductDetailsComponent implements OnInit {
     this.cartService.addToCart(product);
     
 ;
-    window.alert('Your product has been added to the cart!');
+    window.alert(`Has añadido ${this.product?.name} a tu carrito`);
   }
   addToFavourites(){
-    window.alert(`The product ${this.product?.name} has been added to the favourites.` )
+    window.alert(`Has añadido ${this.product?.name} a favoritos.` )
   }
   product: Product | undefined;
   constructor(
